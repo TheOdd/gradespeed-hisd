@@ -13,7 +13,7 @@ A small package that allows for easy scraping of the GradeBook page's HTML from 
         <img src="https://travis-ci.org/TheOdd/gradespeed-hisd.svg?branch=master"
             alt="Build Status"></a>
     <a href="https://coveralls.io/github/TheOdd/gradespeed-hisd">
-      <img src="https://coveralls.io/repos/github/TheOdd/gradespeed-hisd/badge.svg"
+      <img src="https://img.shields.io/coveralls/github/TheOdd/gradespeed-hisd.svg"
             alt="Coverage Status"></a>
 
 </p>
