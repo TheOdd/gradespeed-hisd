@@ -29,7 +29,7 @@ A small package that allows for easy scraping of the GradeBook page's HTML from 
   The callback function takes two arguments:
   - `err` - If an error occurs when executing the function, then the error will be returned here. Otherwise, it will be `null`.
 
-  - `body` - If the call succeeds then this will be a **string of raw HTML** that was scraped from the GradeBook page. If the call was unsuccessful and encountered an error, then the value will be `null`. In order to properly handle the HTML code and work with it, you'll likely need to parse it with something like `cheerio`.
+  - `body` - If the call succeeds then this will be a **string of raw HTML** that was scraped from the GradeBook page. If the call was unsuccessful and encountered an error, then the value will be `null`. In order to properly handle the HTML code and work with it, you'll likely need to parse it with something like [cheerio][3].
 
 ---
 
@@ -68,3 +68,4 @@ I could not have done this without the hidden gem that is [@au5ton][1]'s informa
 
 [1]:https://github.com/au5ton
 [2]:https://github.com/au5ton/docs/wiki/GradeSpeed-(ParentStudentConnect)
+[3]:https://www.npmjs.com/package/cheerio
