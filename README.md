@@ -3,6 +3,17 @@ Gradespeed HISD
 
 A small package that allows for easy scraping of the GradeBook page's HTML from HISD's GradeSpeed portal.
 
+<p align="center">
+    <a href="https://nodei.co/npm/gradespeed-hisd/">
+        <img src="https://nodei.co/npm/gradespeed-hisd.png?downloads=true&downloadRank=true&stars=true"
+            alt="NPM"></a>
+</p>
+<p align="center">
+    <a href="https://travis-ci.org/TheOdd/gradespeed-hisd">
+        <img src="https://travis-ci.org/TheOdd/gradespeed-hisd.svg?branch=master"
+            alt="build status"></a>
+</p>
+
 ## Installation
 
   `npm install gradespeed-hisd`
