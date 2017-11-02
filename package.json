@@ -1,0 +1,24 @@
+{
+  "name": "gradespeed-hisd",
+  "version": "0.2.3",
+  "description": "A small package that allows for easy scraping of GradeBook page HTML from HISD's GradeSpeed portal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "hisd",
+    "gradespeed",
+    "request"
+  ],
+  "author": "TheOdd",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0"
+  },
+  "tonicExampleFilename": "runkit.js",
+  "devDependencies": {
+    "ava": "^0.23.0"
+  }
+}
