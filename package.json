@@ -6,6 +6,10 @@
   "scripts": {
     "test": "ava"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheOdd/gradespeed-hisd.git"
+  },
   "keywords": [
     "hisd",
     "gradespeed",
