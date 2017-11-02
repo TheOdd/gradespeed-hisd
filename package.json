@@ -1,6 +1,6 @@
 {
   "name": "gradespeed-hisd",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "A small package that allows for easy scraping of GradeBook page HTML from HISD's GradeSpeed portal.",
   "main": "index.js",
   "scripts": {
