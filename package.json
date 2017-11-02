@@ -4,7 +4,8 @@
   "description": "A small package that allows for easy scraping of GradeBook page HTML from HISD's GradeSpeed portal.",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "cover": "node_modules/istanbul/lib/cli.js cover ava"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
   },
   "tonicExampleFilename": "runkit.js",
   "devDependencies": {
-    "ava": "^0.23.0"
+    "ava": "^0.23.0",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5"
   }
 }
