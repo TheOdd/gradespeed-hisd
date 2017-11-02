@@ -4,8 +4,8 @@
   "description": "A small package that allows for easy scraping of GradeBook page HTML from HISD's GradeSpeed portal.",
   "main": "index.js",
   "scripts": {
-    "test": "ava",
-    "cover": "node_modules/istanbul/lib/cli.js cover ava"
+    "test": "nyc ava",
+    "cover": "nyc report --reporter-text=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
   "devDependencies": {
     "ava": "^0.23.0",
     "coveralls": "^3.0.0",
-    "istanbul": "^0.4.5"
+    "istanbul": "^0.4.5",
+    "nyc": "^11.3.0"
   }
 }
