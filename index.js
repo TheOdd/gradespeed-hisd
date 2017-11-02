@@ -7,7 +7,7 @@ const baseURL = 'https://apps.houstonisd.org/ParentStudentConnect';
 var cookie = null;
 
 /**
-* Adds commas to a number
+* Fetches gradebook page raw html
 * @param {string} username
 * @param {string} password
 * @callback callback
