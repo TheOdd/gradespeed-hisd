@@ -1,7 +1,7 @@
 Gradespeed HISD
 =========
 
-A small package that allows for easy scraping of the GradeBook page's HTML from HISD's GradeSpeed portal.
+A package that allows for easy scraping of the GradeBook page's HTML from HISD's GradeSpeed portal.
 
 <p align="center">
     <a href="https://nodei.co/npm/gradespeed-hisd/">
@@ -26,14 +26,14 @@ A small package that allows for easy scraping of the GradeBook page's HTML from 
 
   `gradespeed(username, password, callback)`
 
-    function callback(err, body) {
+    function callback(err, returnArr) {
       // Handle results from gradespeed call
     }
 
   The callback function takes two arguments:
   - `err` - If an error occurs when executing the function, then the error will be returned here. Otherwise, it will be `null`.
 
-  - `body` - If the call succeeds then this will be a **string of raw HTML** that was scraped from the GradeBook page. If the call was unsuccessful and encountered an error, then the value will be `null`. In order to properly handle the HTML code and work with it, you'll likely need to parse it with something like [cheerio][3].
+  - `returnArr` - If the call succeeds then this will be an **array of objects** that contain grade data that was scraped from the GradeBook page. If the call was unsuccessful and encountered an error, then the value will be `null`.
 
 ---
 
@@ -42,11 +42,11 @@ A small package that allows for easy scraping of the GradeBook page's HTML from 
     const username = 'YOUR USERNAME';
     const password = 'YOUR PASSWORD';
 
-    gradespeed(username, password, function(err, body) {
+    gradespeed(username, password, function(err, returnArr) {
       if (err) {
         console.log(err);
       } else {
-        console.log(body);
+        console.log(returnArr);
       }
     });
 
@@ -72,4 +72,3 @@ I could not have done this without the hidden gem that is [@au5ton][1]'s informa
 
 [1]:https://github.com/au5ton
 [2]:https://github.com/au5ton/docs/wiki/GradeSpeed-(ParentStudentConnect)
-[3]:https://www.npmjs.com/package/cheerio
