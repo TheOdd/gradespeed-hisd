@@ -13,7 +13,7 @@ test.cb('Invalid username & pass', t => {
   });
 });
 
-test.cb('Return body of gradebook page.', t => {
+test.cb('Get back valid array of return objects.', t => {
   t.plan(2);
   gradespeed(username, password, (err, returnArr) => {
     var isArr = Array.isArray(returnArr);
