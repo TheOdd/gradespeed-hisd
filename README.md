@@ -1,6 +1,8 @@
 Gradespeed HISD
 =========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/TheOdd/gradespeed-hisd.svg)](https://greenkeeper.io/)
+
 A package that allows for easy scraping of the GradeBook page's HTML from HISD's GradeSpeed portal.
 
 <p align="center">
