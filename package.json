@@ -20,7 +20,8 @@
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "request": "^2.83.0"
+    "form-data": "^2.3.1",
+    "got": "^7.1.0"
   },
   "tonicExampleFilename": "runkit.js",
   "devDependencies": {
