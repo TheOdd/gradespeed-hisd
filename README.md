@@ -18,6 +18,9 @@ A package that allows for easy scraping of the GradeBook page's HTML from HISD's
     <a href="https://www.npmjs.com/package/gradespeed-hisd">
         <img src="https://img.shields.io/npm/dt/gradespeed-hisd.svg"
             alt="Downloads"></a>
+    <a href="https://greenkeeper.io/">
+        <img src="https://badges.greenkeeper.io/TheOdd/gradespeed-hisd.svg"
+            alt="Greenkeeper"></a>
 </p>
 
 ## Installation
