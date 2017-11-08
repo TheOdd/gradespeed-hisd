@@ -59,9 +59,7 @@ A package that allows for easy scraping of the GradeBook page's HTML from HISD's
 
   `npm test`
 
-## Contributing
-
-In lieu of a formal style guide, take care to maintain the existing coding style (once one is actually established!). Add unit tests for any new or changed functionality. Lint and test your code. You know, the standard. If you find any bugs, please make an issue for it, even if you don't submit a PR to resolve it. I have no doubt that this package will break with some cases and I'd love to fix those issues.
+## [Contributing][3]
 
 ## Notes
 
@@ -77,3 +75,4 @@ I could not have done this without the hidden gem that is [@au5ton][1]'s informa
 
 [1]:https://github.com/au5ton
 [2]:https://github.com/au5ton/docs/wiki/GradeSpeed-(ParentStudentConnect)
+[3]:https://github.com/TheOdd/gradespeed-hisd/blob/master/CONTRIBUTING.md
