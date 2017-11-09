@@ -9,8 +9,8 @@ A package that allows for easy scraping of the GradeBook page's HTML from HISD's
             alt="NPM"></a>
 </p>
 <p align="center">
-    <a href="https://travis-ci.org/TheOdd/gradespeed-hisd">
-        <img src="https://travis-ci.org/TheOdd/gradespeed-hisd.svg?branch=master"
+    <a href="https://circleci.com/gh/TheOdd/gradespeed-hisd">
+        <img src="https://img.shields.io/circleci/project/github/TheOdd/gradespeed-hisd.svg"
             alt="Build Status"></a>
     <a href="https://coveralls.io/github/TheOdd/gradespeed-hisd">
       <img src="https://img.shields.io/coveralls/github/TheOdd/gradespeed-hisd.svg"
