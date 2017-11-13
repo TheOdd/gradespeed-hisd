@@ -1,24 +1,24 @@
-import test from 'ava';
-var gradespeed = require('./index');
+import test from 'ava'
+import gradespeed from './index'
 
-const username = process.env.GS_USERNAME;
-const password = process.env.GS_PASSWORD;
+const username = process.env.GS_USERNAME
+const password = process.env.GS_PASSWORD
 
-test.cb('Invalid username & pass', t => {
-  t.plan(2);
-  gradespeed('INVALIDUSERNAME', 'INVALIDPASSWORD', (err, returnArr) => {
-    t.is(returnArr, null);
-    t.is(err.message, 'Invalid username or password.');
-    t.end();
-  });
-});
+test('Invalid username & pass', t => {
+  t.plan(1)
 
-test.cb('Get back valid array of return objects.', t => {
-  t.plan(2);
-  gradespeed(username, password, (err, returnArr) => {
-    var isArr = Array.isArray(returnArr);
-    t.falsy(err);
-    t.truthy(isArr && returnArr);
-    t.end();
-  });
-});
+  return gradespeed('INVALIDUSERNAME', 'INVALIDPASSWORD')
+  .then(t.log)
+  .catch(err => t.is(err.message, 'Invalid username or password.'))
+})
+
+test('Get back valid array of return objects.', t => {
+  t.plan(1)
+
+  return gradespeed(username, password)
+  .then(returnArr => {
+    let isArr = Array.isArray(returnArr)
+    t.truthy(isArr && returnArr)
+  })
+  .catch(t.log)
+})

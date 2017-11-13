@@ -29,31 +29,19 @@ A package that allows for easy scraping of the GradeBook page's HTML from HISD's
 
 ## Usage
 
-  `gradespeed(username, password, callback)`
+**Calling the function returns a `Promise` object that works as follows:**
 
-    function callback(err, returnArr) {
-      // Handle results from gradespeed call
-    }
+    gradespeed(username, password)
+    .then(returnArr => {
+      // Handle return array of object
+    })
+    .catch(error => {
+      // Error handling
+    })
 
-  The callback function takes two arguments:
-  - `err` - If an error occurs when executing the function, then the error will be returned here. Otherwise, it will be `null`.
+  The array returned by the function upon succeeding is:
 
-  - `returnArr` - If the call succeeds then this will be an **array of objects** that contain grade data that was scraped from the GradeBook page. If the call was unsuccessful and encountered an error, then the value will be `null`.
-
----
-
-    var gradespeed = require('gradespeed-hisd');
-
-    const username = 'YOUR USERNAME';
-    const password = 'YOUR PASSWORD';
-
-    gradespeed(username, password, function(err, returnArr) {
-      if (err) {
-        console.log(err);
-      } else {
-        console.log(returnArr);
-      }
-    });
+  - `returnArr` - An **array of objects** that contain grade data that was scraped from the GradeBook page.
 
 ## Tests
 
