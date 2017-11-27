@@ -12,14 +12,10 @@
     "got": "^8.0.0"
   },
   "devDependencies": {
-    "ava": "^0.23.0",
-    "coveralls": "^3.0.0",
-    "istanbul": "^0.4.5",
-    "nyc": "^11.3.0"
+    "jest": "^21.2.1"
   },
   "scripts": {
-    "test": "nyc ava",
-    "cover": "nyc report --reporter=text-lcov | coveralls"
+    "test": "jest"
   },
   "repository": {
     "type": "git",

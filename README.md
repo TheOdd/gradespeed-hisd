@@ -12,9 +12,6 @@ A package that allows for easy scraping of the GradeBook page's HTML from HISD's
     <a href="https://circleci.com/gh/TheOdd/gradespeed-hisd">
         <img src="https://img.shields.io/circleci/project/github/TheOdd/gradespeed-hisd.svg"
             alt="Build Status"></a>
-    <a href="https://coveralls.io/github/TheOdd/gradespeed-hisd">
-      <img src="https://img.shields.io/coveralls/github/TheOdd/gradespeed-hisd.svg"
-            alt="Coverage Status"></a>
     <a href="https://www.npmjs.com/package/gradespeed-hisd">
         <img src="https://img.shields.io/npm/dt/gradespeed-hisd.svg"
             alt="Downloads"></a>
