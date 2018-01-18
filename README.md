@@ -1,6 +1,8 @@
 Gradespeed HISD
 =========
 
+***NOTE:*** **I am no longer a student in the HISD school district, and so my account has been deactivated on the GradeSpeed portal. This means that the tests will fail and I will no longer be able to actively develop and maintain this package. I doubt that much will change, but I just wanted to make it clear as to why the package will be going silent and failing its CI tests.**
+
 A package that allows for easy scraping of the GradeBook page's HTML from HISD's GradeSpeed portal.
 
 <p align="center">
