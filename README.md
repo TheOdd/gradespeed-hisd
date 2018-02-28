@@ -3,6 +3,8 @@ Gradespeed HISD
 
 ***NOTE:*** **I am no longer a student in the HISD school district, and so my account has been deactivated on the GradeSpeed portal. This means that the tests will fail and I will no longer be able to actively develop and maintain this package. I doubt that much will change, but I just wanted to make it clear as to why the package will be going silent and failing its CI tests.**
 
+***UPDATE:*** **I have completely disabled the CI integration for now, as it just adds unnecessary overhead to the project.**
+
 A package that allows for easy scraping of the GradeBook page's HTML from HISD's GradeSpeed portal.
 
 <p align="center">
@@ -11,9 +13,6 @@ A package that allows for easy scraping of the GradeBook page's HTML from HISD's
             alt="NPM"></a>
 </p>
 <p align="center">
-    <a href="https://circleci.com/gh/TheOdd/gradespeed-hisd">
-        <img src="https://img.shields.io/circleci/project/github/TheOdd/gradespeed-hisd.svg"
-            alt="Build Status"></a>
     <a href="https://www.npmjs.com/package/gradespeed-hisd">
         <img src="https://img.shields.io/npm/dt/gradespeed-hisd.svg"
             alt="Downloads"></a>
